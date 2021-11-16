@@ -297,7 +297,7 @@ calculated for each iteration.
 liteStake - Previously the staking process would continuosly rehash the same hashes over and over, needlessly taking up valuable CPU power.
 I have added a std::map that tracks the block height and the last time the wallet hashed on this height. Depending on your staking settings,
 the wallet will not begin a new round of hashing until after a certain amount of time has passed, or a new block is accepted. This time delay
-can be found in main.cpp bitcoinminer(). This means that there will be 1-5 seconds of hashing with the CPU once every few minutes, compared to
+can be found in main.cpp ElementMinter(). This means that there will be 1-5 seconds of hashing with the CPU once every few minutes, compared to
 continued hashing with the CPU.
 **/
 uint256 stakeHash(unsigned int nTimeTx, unsigned int nTxPrevTime, CDataStream ss, unsigned int prevoutIndex, unsigned int nTxPrevOffset, unsigned int nTimeBlockFrom)

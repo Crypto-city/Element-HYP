@@ -4,8 +4,8 @@
 class CBlock;
 class CWallet;
 
-void BitcoinMiner(CWallet *pwallet, bool fProofOfStake);
+void ElementMinter(CWallet *pwallet, bool fProofOfStake);
 CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake);
-void ThreadBitcoinMiner(void* parg);
+void ThreadElementMinter(void* parg);
 
 #endif //ELEMENT_MINER_H
