@@ -2,18 +2,6 @@
 
 # Element (HYP)
 
-Copyright (c) 2021 Element (HYP) Developers<br/>
-Copyright (c) 2013-2021 HyperStake (HYP) Developers<br/>
-Copyright (c) 2013 NovaCoin Developers<br/>
-Copyright (c) 2011-2012 Bitcoin Developers<br/>
-
-Distributed under the MIT/X11 software license, see the accompanying
-file license.txt or http://www.opensource.org/licenses/mit-license.php.
-This product includes software developed by the OpenSSL Project for use in
-the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
-cryptographic software written by Eric Young (eay@cryptsoft.com).
-
-
 Introduction 
 -----
 Element (HYP) is a Crypto-city rendition of HyperStake (HYP). It is a Proof of Stake (PoS) cryptocurrency. Element (HYP) honours the original protocol; not a hard fork or swap. The project is open source and is derived from Bitcoin, NovaCoin, and forked directly from TruckCoin (TRK). 
@@ -108,4 +96,15 @@ Build Instructions (Windows)
 `cd /home/username`<br>
 `chmod 777 element-qt.exe`<br>
 
+-----
+Copyright (c) 2021 Element (HYP) Developers<br/>
+Copyright (c) 2013-2021 HyperStake (HYP) Developers<br/>
+Copyright (c) 2013 NovaCoin Developers<br/>
+Copyright (c) 2011-2012 Bitcoin Developers<br/>
+
+Distributed under the MIT/X11 software license, see the accompanying
+file license.txt or http://www.opensource.org/licenses/mit-license.php.
+This product includes software developed by the OpenSSL Project for use in
+the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
+cryptographic software written by Eric Young (eay@cryptsoft.com).
 
