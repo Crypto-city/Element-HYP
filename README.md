@@ -1,4 +1,4 @@
-![Image of bitFlowers Logo](https://download.crypto-city.com/aw/github.gif)
+![Image of Element Logo](https://download.crypto-city.com/aw/github.gif)
 
 # Element (HYP)
 
@@ -96,6 +96,8 @@ Build Instructions (Windows)
 `cd /home/username`<br>
 `chmod 777 element-qt.exe`<br>
 
+-----
+![Image of Crypto-city Logo](https://download.crypto-city.com/aw/cc.png)
 -----
 Copyright (c) 2021 Element (HYP) Developers<br/>
 Copyright (c) 2013-2021 HyperStake (HYP) Developers<br/>
