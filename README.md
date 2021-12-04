@@ -65,7 +65,7 @@ Build Instructions (MacOS)
 `cd Element-HYP/script` <br>
 `./macOS.sh` <br><br>
 **Once completed:** <br><br>
-`cd /home/icryptony/release/Element-HYP-macOS`
+`cd /home/username/release/Element-HYP-macOS`
 
 Build Instructions (Windows)
 -------
