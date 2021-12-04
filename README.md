@@ -79,14 +79,14 @@ Build Instructions (Linux)
 Build Instructions (Windows)
 -------
 ### Windows-32bit:
-`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br>
-**Inside the terminal (change username according to yours):** <br>
+`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br><br>
+**Inside the terminal (change username according to yours):** <br><br>
 `cd /home/username/` <br>
 `sudo apt install git` <br>
 `git clone https://github.com/crypto-city/Element-HYP` <br>
 `cd Element-HYP/script` <br>
-`./w32.sh` <br>
-**Once finished...** <br>
+`./w32.sh` <br><br>
+**Once finished...** <br><br>
 `sudo su root` <br>
 `cd /root/release/Element-HYP-w32/home/username/Element-HYP/depends/i686-w64-mingw32/bin/` <br>
 `cp -r element-qt.exe /home/username/` <br>
