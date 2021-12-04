@@ -79,18 +79,18 @@ Build Instructions (Linux)
 Build Instructions (Windows)
 -------
 ### Windows-32bit:
-`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine`&nbsp;
-**Inside the terminal (change username according to yours):**&nbsp;
-`cd /home/username/`&nbsp;
-`sudo apt install git`&nbsp;
-`git clone https://github.com/crypto-city/Element-HYP`&nbsp;
-`cd Element-HYP/script`&nbsp;
-`./w32.sh`&nbsp;
-**Once finished...**&nbsp;
-`sudo su root`&nbsp;
-`cd /root/release/Element-HYP-w32/home/username/Element-HYP/depends/i686-w64-mingw32/bin/`&nbsp;
-`cp -r element-qt.exe /home/username/`&nbsp;
-`cd /home/username/`&nbsp;
-`chmod 777 element-qt.exe`&nbsp;
+`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br>
+**Inside the terminal (change username according to yours):** <br>
+`cd /home/username/` <br>
+`sudo apt install git` <br>
+`git clone https://github.com/crypto-city/Element-HYP` <br>
+`cd Element-HYP/script` <br>
+`./w32.sh` <br>
+**Once finished...** <br>
+`sudo su root` <br>
+`cd /root/release/Element-HYP-w32/home/username/Element-HYP/depends/i686-w64-mingw32/bin/` <br>
+`cp -r element-qt.exe /home/username/` <br>
+`cd /home/username/` <br>
+`chmod 777 element-qt.exe` <br>
 
 
