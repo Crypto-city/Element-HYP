@@ -53,7 +53,7 @@ for help and more information.
 
 Build Instructions (Linux)
 -------
-### If definitely Ubuntu 18.04 LTS (non GUI):
+### (If definitely Ubuntu 18.04 LTS) (non GUI):
 `sudo add-apt-repository ppa:bitcoin/bitcoin`
 `sudo apt-get update`
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev automake`
@@ -86,11 +86,22 @@ Build Instructions (Windows)
 `git clone https://github.com/crypto-city/Element-HYP` <br>
 `cd Element-HYP/script` <br>
 `./w32.sh` <br><br>
-**Once finished:** <br><br>
+**Once completed:** <br><br>
 `sudo su root` <br>
 `cd /root/release/Element-HYP-w32/home/username/Element-HYP/depends/i686-w64-mingw32/bin/` <br>
 `cp -r element-qt.exe /home/username/` <br>
 `cd /home/username/` <br>
 `chmod 777 element-qt.exe` <br>
 
-
+Build Instructions (MacOS)
+-------
+### MAcOS-64bit:
+`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br><br>
+**Inside the terminal (change username according to yours):** <br><br>
+`cd /home/username/` <br>
+`sudo apt install git` <br>
+`git clone https://github.com/crypto-city/Element-HYP` <br>
+`cd Element-HYP/script` <br>
+`./macOS.sh` <br><br>
+**Once completed:** <br><br>
+`cd /home/icryptony/release/Element-HYP-macOS`
