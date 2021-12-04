@@ -1,7 +1,5 @@
 ![Image of bitFlowers Logo](https://download.crypto-city.com/aw/github.gif)
 
-This comment here is to verify CMC's SRD program (step 4).
-
 # Element (HYP)
 
 Copyright (c) 2021 Element (HYP) Developers<br/>
