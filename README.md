@@ -14,13 +14,21 @@ the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 
-Intro
+Introduction 
 -----
-Element (HYP) is a Crypto-city rendition of HyperStake (HYP). It is 
-is a free open source project derived from NovaCoin, with
-the goal of providing a longterm energy-efficient Proof of Stake (PoS) based cryptocurrency.
-Built on the foundation of Bitcoin and NovaCoin, innovations such as proof-of-stake
-help further advance the field of crypto-currency.
+Element (HYP) is a Crypto-city rendition of HyperStake (HYP). It is a Proof of Stake (PoS) cryptocurrency. Element (HYP) honours the original protocol; not a hard fork or swap. The project is open source and is derived from Bitcoin, NovaCoin, and forked directly from TruckCoin (TRK). 
+<br>
+Embarking on a new journey, Element (HYP) aims to empower the human experience; the power of you. The Crypto-city team has provided the necessary performance and UI upgrades that simplifies the user experience. 
+
+Specifications
+----- 
+Block time: 90 seconds
+Block size: 1MB
+Algorithm: X11
+Minimum stake maturity: 8.8 days
+Maximum stake maturity: 30 days 
+Maximum Stake Subsidy: 1,000 HYP
+Maximum stake rewards per day: 960,000 HYP
 
 Upgrade
 -------
