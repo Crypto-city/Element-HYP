@@ -30,27 +30,27 @@ https://element-hyp.com/cc/how_to_update.pdf
 
 Build Instructions (Linux)
 -------
-**If definitely Ubuntu 18.04 LTS (non GUI):**<br>
+**If definitely Ubuntu 18.04 LTS (non GUI):**<br><br>
 `sudo add-apt-repository ppa:bitcoin/bitcoin`
 `sudo apt-get update`
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev automake`
 
 **Else:**
 
-**Dependencies required for Element (HYP) with or without GUI:**<br>
-`sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev automake`
+**Dependencies required for Element (HYP) with or without GUI:**<br><br>
+`sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev automake`<br>
 **Prepare build:**
 `./autogen.sh`
 
-**Configure without GUI:**<br>
+**Configure without GUI:**<br><br>
 `./configure --with-incompatible-bdb --with-gui=no`
 
-**Configure with GUI:**<br>
+**Configure with GUI:**<br><br>
 `sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev`
 
 `./configure --with-incompatible-bdb --with-gui=qt5`
 
-**Compile**<br>
+**Compile**<br><br>
 `make`
 
 Build Instructions (MacOS)
