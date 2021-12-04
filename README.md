@@ -86,7 +86,7 @@ Build Instructions (Windows)
 `git clone https://github.com/crypto-city/Element-HYP` <br>
 `cd Element-HYP/script` <br>
 `./w32.sh` <br><br>
-**Once finished...** <br><br>
+**Once finished:** <br><br>
 `sudo su root` <br>
 `cd /root/release/Element-HYP-w32/home/username/Element-HYP/depends/i686-w64-mingw32/bin/` <br>
 `cp -r element-qt.exe /home/username/` <br>
