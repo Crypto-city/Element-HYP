@@ -72,7 +72,7 @@ Build Instructions (Windows)
 
 Build Instructions (MacOS)
 -------
-### MAcOS-64bit:
+### MacOS-64bit:
 `Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br><br>
 **Inside the terminal (change username according to yours):** <br><br>
 `cd /home/username/` <br>
