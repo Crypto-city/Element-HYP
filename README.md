@@ -30,33 +30,48 @@ https://element-hyp.com/cc/how_to_update.pdf
 
 Build Instructions (Linux)
 -------
-### (If definitely Ubuntu 18.04 LTS) (non GUI):
+**If definitely Ubuntu 18.04 LTS (non GUI):**
 `sudo add-apt-repository ppa:bitcoin/bitcoin`
 `sudo apt-get update`
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev automake`
 
-### Else:
+**Else:**
 
-### Dependencies required for Element (HYP) with or without GUI:
+**Dependencies required for Element (HYP) with or without GUI:**
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev automake`
-
+**Prepare build:**
 `./autogen.sh`
 
-### Configure without GUI:
+**onfigure without GUI:**
 `./configure --with-incompatible-bdb --with-gui=no`
 
-### Configure with GUI:
+**Configure with GUI:**
 `sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev`
 
 `./configure --with-incompatible-bdb --with-gui=qt5`
 
-### Compile
+**Compile**
 `make`
+
+Build Instructions (MacOS)
+-------
+### MacOS-64bit:
+`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br>
+`Allow "Software Updater" to cycle through and update`<br><br>
+**Inside the terminal (change username according to yours):** <br><br>
+`cd /home/username/` <br>
+`sudo apt install git` <br>
+`git clone https://github.com/crypto-city/Element-HYP` <br>
+`cd Element-HYP/script` <br>
+`./macOS.sh` <br><br>
+**Once completed:** <br><br>
+`cd /home/icryptony/release/Element-HYP-macOS`
 
 Build Instructions (Windows)
 -------
 ### Windows-32bit:
-`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br><br>
+`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br>
+`Allow "Software Updater" to cycle through and update`<br><br>
 **Inside the terminal (change username according to yours):** <br><br>
 `cd /home/username/` <br>
 `sudo apt install git` <br>
@@ -69,16 +84,20 @@ Build Instructions (Windows)
 `cp -r element-qt.exe /home/username/` <br>
 `cd /home/username/` <br>
 `chmod 777 element-qt.exe` <br>
-
-Build Instructions (MacOS)
--------
-### MacOS-64bit:
-`Build a new blank Linux 18.04 (Bionic Beaver) Virtual Machine` <br><br>
+### Win-64bit:
+`Build a new blank Linux Ubuntu 20.04.3 LTS (Focal Fossa) Virtual Machine` <br><br>
+`Allow "Software Updater" to cycle through and update`<br><br>
 **Inside the terminal (change username according to yours):** <br><br>
 `cd /home/username/` <br>
-`sudo apt install git` <br>
-`git clone https://github.com/crypto-city/Element-HYP` <br>
-`cd Element-HYP/script` <br>
-`./macOS.sh` <br><br>
+`wget https://download.crypto-city.com/aw/w64.sh`
+`sudo chmod ugo+x w64.sh`
+`sudo su root`
+`./w64.sh`<br>
+`1 + ENTER`<br><br>
 **Once completed:** <br><br>
-`cd /home/icryptony/release/Element-HYP-macOS`
+`cd /home/username/Element-HYP/src/qt`<br>
+`cp -r element-qt.exe /home/username/`<br>
+`cd /home/username`<br>
+`chmod 777 element-qt.exe`<br>
+
+
