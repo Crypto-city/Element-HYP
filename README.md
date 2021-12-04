@@ -35,11 +35,11 @@ Build Instructions (Linux)
 `sudo apt-get update`
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev automake`
 
-**Else:**
+###Else:
 
 **Dependencies required for Element (HYP) with or without GUI:**<br><br>
-`sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev automake`<br>
-**Prepare build:**
+`sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev automake`<br><br>
+**Prepare build:**<br>
 `./autogen.sh`
 
 **Configure without GUI:**<br><br>
