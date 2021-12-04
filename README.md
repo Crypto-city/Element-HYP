@@ -17,18 +17,18 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 Introduction 
 -----
 Element (HYP) is a Crypto-city rendition of HyperStake (HYP). It is a Proof of Stake (PoS) cryptocurrency. Element (HYP) honours the original protocol; not a hard fork or swap. The project is open source and is derived from Bitcoin, NovaCoin, and forked directly from TruckCoin (TRK). 
-<br>
+<br><br>
 Embarking on a new journey, Element (HYP) aims to empower the human experience; the power of you. The Crypto-city team has provided the necessary performance and UI upgrades that simplifies the user experience. 
 
 Specifications
 ----- 
-Block time: 90 seconds
-Block size: 1MB
-Algorithm: X11
-Minimum stake maturity: 8.8 days
-Maximum stake maturity: 30 days 
-Maximum Stake Subsidy: 1,000 HYP
-Maximum stake rewards per day: 960,000 HYP
+Block time: 90 seconds<br>
+Block size: 1MB<br>
+Algorithm: X11<br>
+Minimum stake maturity: 8.8 days<br>
+Maximum stake maturity: 30 days<br>
+Maximum Stake Subsidy: 1,000 HYP<br>
+Maximum stake rewards per day: 960,000 HYP<br>
 
 Upgrade
 -------
