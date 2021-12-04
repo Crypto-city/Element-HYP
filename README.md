@@ -1,4 +1,4 @@
-![Image of bitFlowers Logo](https://element-hyp.com/assets/images/github_header.png)
+![Image of bitFlowers Logo](https://download.crypto-city.com/aw/github.gif)
 
 This comment here is to verify CMC's SRD program (step 4).
 
