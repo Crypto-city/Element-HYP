@@ -30,27 +30,27 @@ https://element-hyp.com/cc/how_to_update.pdf
 
 Build Instructions (Linux)
 -------
-**If definitely Ubuntu 18.04 LTS (non GUI):**
+**If definitely Ubuntu 18.04 LTS (non GUI):**<br>
 `sudo add-apt-repository ppa:bitcoin/bitcoin`
 `sudo apt-get update`
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev automake`
 
 **Else:**
 
-**Dependencies required for Element (HYP) with or without GUI:**
+**Dependencies required for Element (HYP) with or without GUI:**<br>
 `sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev automake`
 **Prepare build:**
 `./autogen.sh`
 
-**onfigure without GUI:**
+**Configure without GUI:**<br>
 `./configure --with-incompatible-bdb --with-gui=no`
 
-**Configure with GUI:**
+**Configure with GUI:**<br>
 `sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev`
 
 `./configure --with-incompatible-bdb --with-gui=qt5`
 
-**Compile**
+**Compile**<br>
 `make`
 
 Build Instructions (MacOS)
@@ -85,13 +85,13 @@ Build Instructions (Windows)
 `cd /home/username/` <br>
 `chmod 777 element-qt.exe` <br>
 ### Win-64bit:
-`Build a new blank Linux Ubuntu 20.04.3 LTS (Focal Fossa) Virtual Machine` <br><br>
+`Build a new blank Linux Ubuntu 20.04.3 LTS (Focal Fossa) Virtual Machine` <br>
 `Allow "Software Updater" to cycle through and update`<br><br>
 **Inside the terminal (change username according to yours):** <br><br>
-`cd /home/username/` <br>
-`wget https://download.crypto-city.com/aw/w64.sh`
-`sudo chmod ugo+x w64.sh`
-`sudo su root`
+`cd /home/username/`<br>
+`wget https://download.crypto-city.com/aw/w64.sh`<br>
+`sudo chmod ugo+x w64.sh`<br>
+`sudo su root`<br>
 `./w64.sh`<br>
 `1 + ENTER`<br><br>
 **Once completed:** <br><br>
