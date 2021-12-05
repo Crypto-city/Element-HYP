@@ -18,7 +18,7 @@ Block size: 1MB<br>
 Algorithm: X11<br>
 Minimum stake maturity: 8.8 days<br>
 Maximum stake maturity: 30 days<br>
-Maximum Stake Subsidy: 1,000 HYP<br>
+Maximum Stake reward: 1,000 HYP<br>
 Maximum stake rewards per day: 960,000 HYP<br>
 
 Upgrade
