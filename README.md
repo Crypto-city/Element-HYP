@@ -4,7 +4,7 @@
 
 Introduction 
 -----
-Element (HYP) is a [Crypto-city](https://www.crypto-city.com/) rendition of HyperStake (HYP). It is a Proof of Stake (PoS) cryptocurrency. Element (HYP) honours the original protocol; not a hard fork or swap. The project is open source and is derived from Bitcoin, NovaCoin, and forked directly from TruckCoin (TRK). 
+Element (HYP) is a [Crypto-city](https://www.crypto-city.com/) rendition of HyperStake (HYP). It is an advanced Proof of Stake (PoS) cryptocurrency. Element (HYP) honours the original protocol; not a hard fork or swap. The project is open source and is derived from Bitcoin, NovaCoin, and forked directly from TruckCoin (TRK). 
 <br><br>
 Embarking on a new journey, Element (HYP) aims to empower the human experience; the power of you. The [Crypto-city](https://www.crypto-city.com/) team has provided the necessary performance and UI upgrades that simplifies the user experience. 
 <br><br>
