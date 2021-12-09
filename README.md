@@ -1,4 +1,4 @@
-![Image of Element Logo](https://download.crypto-city.com/aw/github.gif)(https://www.crypto-city.com/element-hyp/info/)
+[![Image of Element Logo](https://download.crypto-city.com/aw/github.gif)](https://www.crypto-city.com/element-hyp/info/)
 
 # Element (HYP)
 
@@ -108,7 +108,7 @@ Build Instructions (Windows)
 `chmod 777 element-qt.exe`<br>
 
 -----
-![Image of Crypto-city Logo](https://download.crypto-city.com/aw/cc.png)(https://www.crypto-city.com/)
+[![Image of Crypto-city Logo](https://download.crypto-city.com/aw/cc.png)](https://www.crypto-city.com/element-hyp/info/)
 -----
 Copyright (c) 2021 Element (HYP) Developers<br/>
 Copyright (c) 2013-2021 HyperStake (HYP) Developers<br/>
