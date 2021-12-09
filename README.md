@@ -27,6 +27,14 @@ Upgrading from HyperStake (HYP) to Element (HYP):<br>
 
 https://element-hyp.com/cc/how_to_update.pdf
 
+Video Guide
+-------
+This video walkthrough is a full breakdown of how to properly make full use of the Element (HYP) cryptocurrency desktop wallet application. From installation right through to how you can properly backup and secure your Element (HYP) coins; empowering you to take full control of your HYP assets and confidently participating within the rapidly evolving Element (HYP) crypto ecosystem.<br>
+
+Please click the image blow to access the video:
+
+[![Element HYP video guide](https://element-hyp.com/guide_thumbnail.png)](https://youtu.be/hyVt8kBHs_o)
+
 Build Instructions (Linux)
 -------
 **If definitely Ubuntu 18.04 LTS (non GUI):**<br><br>
