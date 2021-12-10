@@ -1,6 +1,6 @@
 [![Image of Element Logo](https://download.crypto-city.com/aw/github.gif)](https://www.crypto-city.com/element-hyp/info/)
 
-# Element (HY) Discord Price Tracker Bot
+# Element (HYP) Discord Price Tracker Bot
 This bot will sit in the member list of the Discord server and display USD/BTC price of Element (HYP) and it's % movement over 24 hours. 
 
 Dependencies
