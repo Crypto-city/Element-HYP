@@ -26,18 +26,13 @@ Install pip
 `sudo apt install python3-pip -y`<br>
 `sudo python -m pip install --upgrade pip`<br>
 
-Downloading repo
------
-`cd /home/username/`<br>
-`git clone https://github.com/anthonyrjwood/element_hyp_discord_price_bot.git`<br>
-
 Additional Dependencies
 -----
+`cd /home/username/Desktop/lab/element_hyp_discord_price_bot`<br>
 `pip install -r requirements.txt`<br>
 
 Cache the CoinGecko cryptocurrency ticker list
 -----
-`cd /home/username/Desktop/lab/element_hyp_discord_price_bot`<br>
 `python crypto_cache.py -v`<br>
 
 Configure crypto_config.yaml
@@ -61,7 +56,7 @@ HYP:<br>
 
 Run
 -----
-`python cfgi_run.py`
+`python crypto_run.py -t HYP`
 
 Deploy
 -----
