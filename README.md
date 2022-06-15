@@ -1,3 +1,5 @@
+Hi Coinmarketcap
+
 [![Image of Element Logo](https://download.crypto-city.com/aw/github.gif)](https://www.crypto-city.com/element-hyp/info/)
 
 # Element (HYP)
