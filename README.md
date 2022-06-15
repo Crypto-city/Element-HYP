@@ -1,4 +1,4 @@
-Hi Coinmarketcap 486409
+
 
 [![Image of Element Logo](https://download.crypto-city.com/aw/github.gif)](https://www.crypto-city.com/element-hyp/info/)
 
