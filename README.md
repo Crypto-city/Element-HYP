@@ -27,7 +27,7 @@ Upgrade
 -------
 Upgrading from HyperStake (HYP) to Element (HYP):<br>
 
-https://download.crypto-city.com/hyp/docs/how_to_update.pdf
+https://www.crypto-city.com/element-hyp/info
 
 Video Guide
 -------
