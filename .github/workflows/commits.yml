@@ -65,10 +65,8 @@ jobs:
         with:
           name: ElementHYP-ubuntu20
           path: |
-            ./src/ElementHYPd
-            ./src/ElementHYP-cli
-            ./src/ElementHYP-tx
-            ./src/qt/ElementHYP-qt
+            ./src/element-qt
+            ./src/qt/element-qt
             
   windows32-ubuntu20:
     runs-on: ubuntu-20.04
@@ -98,13 +96,11 @@ jobs:
         run: make -j2
         
       - name: strip
-        run: cd ./src && strip verged.exe verge-cli.exe verge-tx.exe && cd ./qt && strip verge-qt.exe
+        run: cd ./src && strip elementd.exe && cd ./qt && strip element-qt.exe
 
       - uses: actions/upload-artifact@v4
         with:
           name: ElementHYP-windows32-ubuntu20
           path: |
-            /home/runner/work/ElementHYP/ElementHYP/src/ElementHYPd.exe
-            /home/runner/work/ElementHYP/ElementHYP/src/ElementHYP-cli.exe
-            /home/runner/work/ElementHYP/ElementHYP/src/ElementHYP-tx.exe
-            /home/runner/work/ElementHYP/ElementHYP/src/qt/ElementHYP-qt.exe
+            /home/runner/work/ElementHYP/ElementHYP/src/elementd.exe
+            /home/runner/work/ElementHYP/ElementHYP/src/qt/element-qt.exe
