@@ -5,7 +5,7 @@ class Boost < Formula
   head "https://github.com/boostorg/boost.git"
 
   stable do
-    url "https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.tar.bz2"
+    url "https://archives.boost.io/release/1.64.0/source/boost_1_64_0.tar.bz2"
     sha256 "7bcc5caace97baa948931d712ea5f37038dbb1c5d89b43ad4def4ed7cb683332"
 
     # Remove for > 1.64.0
