@@ -24,11 +24,7 @@ class Boost < Formula
 
   deprecated_option "with-icu" => "with-icu4c"
 
-  if build.cxx11?
-    depends_on "icu4c" => [:optional, "c++11"]
-  else
-    depends_on "icu4c" => :optional
-  end
+  depends_on "icu4c" => :optional
 
   needs :cxx11 if build.cxx11?
 
