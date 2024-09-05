@@ -1178,10 +1178,15 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
 
-    {"Crypto-city", "174.84.66.125"},      
-    {"Crypto-city", "24.45.174.6"}, 
+    {"Crypto-city", "174.84.66.125"},
+    {"Crypto-city", "24.45.174.6"},
     {"Crypto-city", "24.46.6.86"},
-    {"Crypto-city", "95.217.78.170"},\
+    {"Crypto-city", "95.217.78.170"},
+	{"Crypto-city", "104.219.232.174"},
+	{"Crypto-city", "24.168.33.218"},
+	{"Crypto-city", "24.45.174.6"},
+	{"Crypto-city", "24.46.6.86"},
+	{"Crypto-city", "addnode=75.130.154.218"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
