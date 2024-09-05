@@ -13,6 +13,7 @@ class Boost < Formula
     # Upstream PR from 26 Jan 2017 https://github.com/boostorg/mpi/pull/39
     patch :p2 do
       url "https://github.com/boostorg/mpi/commit/f5bdcc1.patch?full_index=1"
+	  sha256 "8580899a69c744954d9a4326baeb3639e3b9082de29717c466cdeb18044eadba"
     end
   end
 
