@@ -12,17 +12,17 @@ jobs:
 
       - name: Brew install base dependencies
         run: | 
-          brew install automake berkeley-db@4 boost@1.76 miniupnpc qt@5 gperf qrencode librsvg && curl -L https://raw.githubusercontent.com/vergecurrency/protobuf261/master/protobuf261.rb > protobuf261.rb && brew install protobuf261.rb
+          brew install automake berkeley-db@4 miniupnpc qt@5 gperf qrencode librsvg && curl -L https://raw.githubusercontent.com/vergecurrency/protobuf261/master/protobuf261.rb > protobuf261.rb && brew install protobuf261.rb && curl -L https://raw.githubusercontent.com/justinvforvendetta/Element-HYP/master/boost.rb > boost.rb && brew install boost.rb
           brew unlink openssl && brew reinstall openssl@1.1 && brew link --overwrite openssl@1.1
 
       - name: Brew link dependencies
-        run: brew link boost@1.76 qt@5 berkeley-db@4
+        run: brew link qt@5 berkeley-db@4
 
       - name: Auto generate
         run: ./autogen.sh
 
       - name: configure
-        run: ./configure --disable-bench --disable-tests --disable-dependency-tracking --disable-werror --with-gui --bindir=`pwd`/release/bin --libdir=`pwd`/release/lib
+        run: export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include" export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib" ./configure --disable-bench --disable-tests --disable-dependency-tracking --disable-werror --with-gui --bindir=`pwd`/release/bin --libdir=`pwd`/release/lib
 
       - name: make
         run: make -j4
