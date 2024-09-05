@@ -26,8 +26,6 @@ class Boost < Formula
 
   depends_on "icu4c" => :optional
 
-  needs :cxx11 if build.cxx11?
-
   # fix error: no member named 'make_array' in namespace 'boost::serialization'
   # https://svn.boost.org/trac/boost/ticket/12978
   patch :p2 do
