@@ -137,7 +137,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          ElementHYP-windows64-ubuntu20
+          name: ElementHYP-windows64-ubuntu20
           path: |
             /home/runner/work/ElementHYP/ElementHYP/src/elementd.exe
             /home/runner/work/ElementHYP/ElementHYP/src/qt/element-qt.exe
