@@ -1,8 +1,8 @@
 package=boost
-$(package)_version=1_68_0
-$(package)_download_path=https://archives.boost.io/release/1.68.0/source/
+$(package)_version=1_67_0
+$(package)_download_path=https://dl.bintray.com/boostorg/release/1.67.0/source/
 $(package)_file_name=$(package)_$($(package)_version).tar.bz2
-$(package)_sha256_hash=7f6130bc3cf65f56a618888ce9d5ea704fa10b462be126ad053e80e553d6d8b7
+$(package)_sha256_hash=2684c972994ee57fc5632e03bf044746f6eb45d4920c343937a465fd67a5adba
 
 define $(package)_set_vars
 $(package)_config_opts_release=variant=release
@@ -19,7 +19,7 @@ $(package)_toolset_$(host_os)=gcc
 $(package)_archiver_$(host_os)=$($(package)_ar)
 $(package)_toolset_darwin=darwin
 $(package)_archiver_darwin=$($(package)_libtool)
-$(package)_config_libraries=chrono,filesystem,program_options,system,thread,test
+$(package)_config_libraries=chrono,filesystem,program_options,system,locale,thread,test
 $(package)_cxxflags=-std=c++11 -fvisibility=hidden
 $(package)_cxxflags_linux=-fPIC
 endef
